@@ -1,22 +1,20 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.navbar  {
+    background-image: linear-gradient(to bottom,#6D071A 0,#222 180%);
+}
 
+#homepage_video {
+    min-height: 20%;
+    min-width: 100%;
+    top: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a {
+    box-shadow: none;
+    background: none;
+}
